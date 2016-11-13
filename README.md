@@ -1,3 +1,19 @@
+## Quick start
+
+### yarn
+
+- `yarn`
+- `npm start`
+- Open browser to `http://localhost:8080`
+
+### npm
+
+- `npm install`
+- `npm start`
+- Open browser to `http://localhost:8080`
+
+---
+
 These help with direct injection + minification.
 
 ## ng-annotate
