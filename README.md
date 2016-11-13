@@ -9,3 +9,7 @@ https://www.npmjs.com/package/ng-annotate-loader
 ## ng-strict-di
 https://docs.angularjs.org/api/ng/directive/ngApp
 Disables automatic function annotations
+
+
+## eslint
+Google config settings: https://github.com/google/eslint-config-google/blob/master/index.js
