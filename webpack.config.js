@@ -7,7 +7,11 @@ module.exports = {
   },
   module: {
     loaders: [
-      { test: /\.js$/, exclude: /node_modules/, loaders: ["ng-annotate", "babel-loader", "eslint-loader"] }
-    ]
-  }
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loaders: ['ng-annotate', 'babel-loader', 'eslint-loader'],
+      },
+    ],
+  },
 };
