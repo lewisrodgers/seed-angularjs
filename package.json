@@ -6,12 +6,14 @@
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server --inline --hot",
     "lint": "./node_modules/.bin/eslint -c .eslintrc.json app/src/**.js",
-    "test": "./node_modules/.bin/karma start",
+    "test": "./node_modules/.bin/karma start --single-run",
     "build": "./node_modules/.bin/webpack",
-    "serv": "./node_modules/.bin/webpack-dev-server --inline --hot"
+    "serv": "./node_modules/.bin/webpack-dev-server --inline --hot",
+    "precommit-msg": "echo 'Pre-commit checks...' && exit 0"
   },
   "pre-commit": [
-    "lint"
+    "lint",
+    "precommit-msg"
   ],
   "dependencies": {
     "angular": "^1.5.8",
