@@ -4,10 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "echo 'No test configured' && exit 0",
     "start": "./node_modules/.bin/webpack-dev-server --inline --hot",
+    "lint": "./node_modules/.bin/eslint -c .eslintrc.json app/src/**.js",
+    "test": "./node_modules/.bin/karma start",
     "build": "./node_modules/.bin/webpack",
-    "lint": "./node_modules/.bin/eslint -c .eslintrc.json app/src/**.js"
+    "serv": "./node_modules/.bin/webpack-dev-server --inline --hot"
   },
   "pre-commit": [
     "lint",
@@ -30,6 +31,7 @@
     "karma-babel-preprocessor": "^6.0.1",
     "karma-chrome-launcher": "^2.0.0",
     "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.2",
     "karma-webpack": "^1.8.0",
     "ng-annotate": "^1.2.1",
     "ng-annotate-loader": "^0.2.0",
