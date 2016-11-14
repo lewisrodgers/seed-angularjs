@@ -11,8 +11,7 @@
     "serv": "./node_modules/.bin/webpack-dev-server --inline --hot"
   },
   "pre-commit": [
-    "lint",
-    "test"
+    "lint"
   ],
   "dependencies": {
     "angular": "^1.5.8",
