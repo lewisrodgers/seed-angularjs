@@ -14,7 +14,7 @@
 
 ---
 
-These help with direct injection + minification.
+To help with direct injection + minification:
 
 ## ng-annotate
 https://github.com/olov/ng-annotate
@@ -26,6 +26,7 @@ https://www.npmjs.com/package/ng-annotate-loader
 https://docs.angularjs.org/api/ng/directive/ngApp
 Disables automatic function annotations
 
+---
 
 ## eslint
 Google config settings: https://github.com/google/eslint-config-google/blob/master/index.js
