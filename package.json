@@ -6,9 +6,10 @@
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server --inline --hot",
     "build": "./node_modules/.bin/webpack",
+    "lint": "./node_modules/.bin/eslint",
     "test": "echo 'No test configured' && exit 0"
   },
-  "pre-commit": ["test"],
+  "pre-commit": ["lint", "test"],
   "dependencies": {
     "angular": "^1.5.8",
     "angular-ui-router": "^0.3.2"
