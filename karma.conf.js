@@ -18,7 +18,7 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'app/src/**/*.spec.js' // (ACN) Import all tests into this file
+      'app/src/**/*.spec.js'
     ],
 
 
@@ -38,7 +38,7 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-      'app/src/**/*.spec.js': ['webpack', 'babel'] // (ACN) Import all tests into this file
+      'app/src/**/*.spec.js': ['webpack', 'babel']
     },
 
 
