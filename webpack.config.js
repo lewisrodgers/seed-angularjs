@@ -1,8 +1,9 @@
 module.exports = {
   context: __dirname + '/app',
-  entry: './index.js',
+  entry: './src/app.js',
   output: {
     path: __dirname + '/app/dist',
+    publicPath: '/dist/',
     filename: 'bundle.js',
   },
   devServer: {
@@ -13,7 +14,7 @@ module.exports = {
       {
         test: /\.js$/,
         include: /app\/src/,
-        loaders: ['ng-annotate', 'babel-loader', 'eslint-loader'],
+        loaders: ['ng-annotate', 'babel-loader'],
       },
     ],
   },

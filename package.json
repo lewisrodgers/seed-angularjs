@@ -1,17 +1,16 @@
 {
-  "name": "seed-angular",
+  "name": "acn-angular",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Accenture Cloud First starting point for Angularjs front-end UI development in es6",
   "license": "MIT",
   "scripts": {
-    "start": "echo 'Script not configured!' && exit 1",
+    "start": "echo 'Script not configured!' && exit 0",
     "test": "./node_modules/.bin/karma start",
     "build": "./node_modules/.bin/webpack",
     "serv": "./node_modules/.bin/webpack-dev-server --inline --hot",
-
-    "test-single-run": "./node_modules/.bin/karma start --single-run",
-    "lint": "./node_modules/.bin/eslint -c .eslintrc.json app/src/**.js",
-    "precommit-msg": "echo 'Pre-commit checks...' && exit 0"
+    "precommit-msg": "echo 'Pre-commit checks...' && exit 0",
+    "lint": "./node_modules/.bin/eslint -c .eslintrc.json app/src/**/*.js",
+    "test-single-run": "./node_modules/.bin/karma start --single-run"
   },
   "pre-commit": [
     "precommit-msg",

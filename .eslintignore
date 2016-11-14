@@ -1,4 +1,4 @@
 /*.js
 /*.json
-/app/dist/**
-/app/static/**
+app/dist
+app/static
