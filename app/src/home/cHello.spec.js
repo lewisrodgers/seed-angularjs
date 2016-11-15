@@ -2,7 +2,7 @@ import 'angular';
 import 'angular-mocks';
 
 import home from './';
-import './hello.component';
+import './cHello';
 
 describe('<hello> component', function() {
   let $compile;
