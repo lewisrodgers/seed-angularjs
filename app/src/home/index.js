@@ -1,7 +1,7 @@
 import angular from 'angular';
 
-import hello from './hello.component';
+import cHello from './cHello';
 
 export default angular.module('app.home', [])
-  .component('hello', hello)
+  .component('cHello', cHello)
   .name;

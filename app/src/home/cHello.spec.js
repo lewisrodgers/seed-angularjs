@@ -16,7 +16,7 @@ describe('<hello> component', function() {
   }));
 
   it('should render the text', function() {
-    let element = $compile('<hello></hello>')($rootScope);
+    let element = $compile('<c-hello></c-hello>')($rootScope);
     $rootScope.$digest();
     expect(element.html()).toContain('Hello world!');
   });
