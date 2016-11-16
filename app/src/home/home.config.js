@@ -6,6 +6,6 @@ export default function($stateProvider) {
   $stateProvider
     .state('home', {
       url: '/home',
-      component: 'cHello',
+      component: 'cHello', // example
     });
 }

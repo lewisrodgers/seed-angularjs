@@ -1,3 +1,5 @@
+// Example
+
 export default {
   controller: function() {
     let v = this;
