@@ -8,7 +8,7 @@ module.exports = function(config) {
   config.set({
     basePath: '',
     frameworks: ['jasmine'], // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    browsers: ['Chrome'], // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
+    browsers: ['PhantomJS'], // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
     files: ['app/src/**/*.spec.js'],
     preprocessors: { // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
       'app/src/**/*.spec.js': ['webpack', 'babel']
