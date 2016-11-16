@@ -1,13 +1,13 @@
 {
   "name": "acn-angular",
   "version": "1.0.0",
-  "description": "Accenture Cloud First starting point for Angularjs front-end UI development in es6",
+  "description": "ACN Cloud First starting point for Angularjs front-end UI development in es6",
   "license": "MIT",
   "scripts": {
     "start": "npm run dev",
     "dev": "./node_modules/.bin/webpack-dev-server --config webpack.config.dev.js --inline --hot",
-    "test": "./node_modules/.bin/karma start",
     "build": "./node_modules/.bin/webpack --config webpack.config.prod.js --progress -p",
+    "test": "./node_modules/.bin/karma start",
     "precommit-msg": "echo 'Pre-commit checks...' && exit 0",
     "precommit-lint": "./node_modules/.bin/eslint -c .eslintrc.json app/src/**/*.js",
     "precommit-test": "./node_modules/.bin/karma start --single-run"
@@ -19,7 +19,7 @@
   ],
   "dependencies": {
     "angular": "^1.5.8",
-    "angular-ui-router": "^0.3.2"
+    "angular-ui-router": "^1.0.0-beta.3"
   },
   "devDependencies": {
     "angular-mocks": "^1.5.8",
@@ -38,7 +38,6 @@
     "karma-webpack": "^1.8.0",
     "ng-annotate": "^1.2.1",
     "ng-annotate-loader": "^0.2.0",
-    "npm-run-all": "^3.1.1",
     "pre-commit": "^1.1.3",
     "webpack": "^1.13.3",
     "webpack-dev-server": "^1.16.2"

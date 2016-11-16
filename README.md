@@ -3,13 +3,13 @@
 ### yarn
 
 - `yarn`
-- `npm start` - Start the test runner and dev server and build the `bundle.js` file.
+- `npm start` - Start the dev server
 - Open browser to `http://localhost:8080`
 
 ### npm
 
 - `npm install`
-- `npm start` - Start the test runner and dev server and build the `bundle.js` file.
+- `npm start` - Start the dev server
 - Open browser to `http://localhost:8080`
 
 
